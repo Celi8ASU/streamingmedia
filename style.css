@@ -1,0 +1,114 @@
+html {
+    background-color:#020659;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    margin:0 auto;
+    min-width:375px;
+    max-width:834px;
+    color:#FFFF;
+    background-color:#FFFF;
+}
+h1 {
+    font-size:1.25em;
+    text-transform:uppercase;
+}
+#gradient {
+    background-image: linear-gradient(to right, #2104D9,black);
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-left:20px;
+}
+#trending {
+    display:grid;
+    width: 50em;
+    overflow:auto;
+    height:23em;
+    grid-auto-flow:column;
+    margin-left:5px;
+    
+}
+#trending ::-webkit-scrollbar {
+    display:none;
+    width:10px;
+}
+#trending ::-webkit-scrollbar-track {
+    background-color:#590242;
+}
+#trending ::-webkit-scrollbar-thumb {
+    background: #590242;
+}
+#playlists {
+    background-color:#2699FB;
+    float:left;
+    width:417px;
+    height: 30em;
+    overflow:auto;
+}
+#playlists h3, p {
+    color:#FFFF;
+}
+#playlists ::-webkit-scrollbar {
+    display:none;
+    width:10px;
+}
+#playlists ::-webkit-scrollbar-track {
+    background-color:#590242;
+}
+#playlists ::-webkit-scrollbar-thumb {
+    background: #590242;
+}
+#curated {
+    background-color:#030A8C;
+    float:right;
+    width:417px;
+    height:30em;
+    overflow:auto;
+}
+#curated h3, p {
+    color:#FFFF;
+}
+#curated ::-webkit-scrollbar {
+    display:none;
+    width:10px;
+}
+#curated ::-webkit-scrollbar-track {
+    background-color:#590242;
+}
+#curated ::-webkit-scrollbar-thumb {
+    background: #590242;
+}
+h2, h3 {
+    font-size:1em;
+    text-transform:uppercase;
+    color:#590242;
+}
+nav {
+    background-color:#030A8C;
+    padding:1px;
+}
+nav li {
+    display:inline-block;
+    width:140px;
+}
+nav a {
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#FFFF;
+}
+nav a:hover {
+    background-color:#590242;
+}
+p, dl, dd {
+    font-size:1em;
+}
+button {
+    color:#FFFF;
+    background-color:#590242;
+    padding:5px;
+    border-radius:4px;
+    margin-top: 20px;
+}
+footer p {
+    font-size:.75em;
+}
