@@ -26,7 +26,9 @@ h1 {
     height:23em;
     grid-auto-flow:column;
     margin-left:5px;
-    
+}
+#trending img {
+    position:relative;
 }
 #trending ::-webkit-scrollbar {
     display:none;
@@ -37,6 +39,10 @@ h1 {
 }
 #trending ::-webkit-scrollbar-thumb {
     background: #590242;
+}
+#button1 {
+    float:right;
+    margin-right:20px;
 }
 #playlists {
     background-color:#2699FB;
@@ -78,6 +84,9 @@ h1 {
 #curated ::-webkit-scrollbar-thumb {
     background: #590242;
 }
+#button2 {
+    float:right;
+}
 h2, h3 {
     font-size:1em;
     text-transform:uppercase;
@@ -87,9 +96,21 @@ nav {
     background-color:#030A8C;
     padding:1px;
 }
+nav p {
+    font-family:Tahoma;
+    font-size:30px;
+}
+nav ul {
+    margin-left:120px;
+    margin-top:-55px;
+}
 nav li {
     display:inline-block;
-    width:140px;
+    width:120px;
+    padding:5px;
+    text-align:center;
+    margin-left:30px;
+    margin-top:-50px;
 }
 nav a {
     text-transform:uppercase;
@@ -108,9 +129,12 @@ button {
     padding:5px;
     border-radius:4px;
     margin-top: 20px;
+    padding-left:20px;
+    padding-right:20px;
 }
 footer p {
     font-size:.75em;
     color:#590242;
     text-align:center;
+    padding:20px;
 }
